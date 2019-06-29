@@ -1,0 +1,5 @@
+this project dependes on ffmpeg
+
+https://ffmpeg.zeranoe.com/builds/
+
+install the build and set path

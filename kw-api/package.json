@@ -1,0 +1,19 @@
+{
+  "name": "kw-api",
+  "version": "1.0.0",
+  "description": "Entry point of video conversion service",
+  "main": "index.js",
+  "dependencies": {
+    "amqplib": "^0.5.3",
+    "cors": "^2.8.5",
+    "express-fileupload": "^1.1.5",
+    "express": "^4.17.1",
+    "random-string": "^0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vishwas poojary k",
+  "license": "ISC"
+}

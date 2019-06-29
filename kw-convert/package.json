@@ -1,0 +1,20 @@
+{
+  "name": "kw-convert",
+  "version": "1.0.0",
+  "description": "Converts the video resolutions",
+  "main": "index.js",
+  "dependencies": {
+    "amqplib": "^0.5.3",
+    "cloudinary-core": "^2.6.3",
+    "dotenv": "^8.0.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "handbrake-js": "^4.0.0",
+    "node-cache": "^4.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vishwas poojary k",
+  "license": "ISC"
+}

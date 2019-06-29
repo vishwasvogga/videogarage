@@ -1,0 +1,77 @@
+{
+	"info": {
+		"_postman_id": "4fc66b0e-b5b7-4396-86f7-da405354c349",
+		"name": "knowhere video convert",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ping",
+			"item": [
+				{
+					"name": "Ping",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/ping",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"ping"
+							]
+						},
+						"description": "Ping pong"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "video convert",
+			"item": [
+				{
+					"name": "Convert video",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "video",
+									"type": "file",
+									"src": "/C:/Users/Spectrus/Downloads/jellyfish-25-mbps-hd-hevc.3gp"
+								},
+								{
+									"key": "file",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3000/api/v1/video/convert",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"video",
+								"convert"
+							]
+						},
+						"description": "converts video in different resolutions and returns url"
+					},
+					"response": []
+				}
+			],
+			"description": "converts video"
+		}
+	]
+}
