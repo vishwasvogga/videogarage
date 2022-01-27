@@ -20,6 +20,12 @@ This repo provides an api end point to convert a give video to multiple resoluti
 
 -------------------------------------------------------------
 
+
+----------------------Config------------------------
+
+-- Update parameteres in config.js in root.
+
+-------------------------------------------------------------
   
   
 
