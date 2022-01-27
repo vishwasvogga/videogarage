@@ -21,11 +21,6 @@ This repo provides an api end point to convert a give video to multiple resoluti
 -------------------------------------------------------------
 
 
-----------------------Config------------------------
-
--- Update rabbitmq parameteres in config.js in kw-convert.
-
--------------------------------------------------------------
   
   
 
